@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.3)  3 SEP 2019 20:18
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.3)  3 SEP 2019 22:39
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -817,7 +817,7 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  27687 strings out of 427669
  502003 string characters out of 3144953
- 733903 words of memory out of 3000000
+ 734903 words of memory out of 3000000
  31525 multiletter control sequences out of 15000+200000
  534868 words of font info for 88 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
