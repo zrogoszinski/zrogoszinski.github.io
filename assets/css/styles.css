@@ -118,7 +118,8 @@ a.dotted-link:hover {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #2f7c9e;
+  background: #f5f5f5;
+  background-image: url("bg.jpg");
   border-top: 10px solid #778492;
 }
 
