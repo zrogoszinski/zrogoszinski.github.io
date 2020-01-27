@@ -1,0 +1,157 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Zeeve} \headerlastnamestyle{Rogoszinski} \\
+	\vspace{2mm}
+	{\faEnvelope\ zero@umd.edu} | {\faMapMarker\ College Park, MD 20742} | {\faLink\ https://www.astro.umd.edu/\textasciitilde{}zero/}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages (proficient):  & {\skill{ Python, C, \LaTeX, shell scripting}} \\
+		Programming Languages (novice):  & {\skill{ HTML/CSS}} \\
+		Tools \& Software:  & {\skill{ Unix/Linux, Slurm, Numpy, Matplotlib, Jupyter Notebook, Microsoft Office, Git}} \\
+		Spoken Languages:  & {\skill{ English (native), Hebrew (advanced)}}
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-9mm}
+
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Ann G. Wylie Dissertation Fellow/NASA Earth and Space Science Fellow/Graduate Student}
+	{University of Maryland}
+	{College Park, MD}
+	{2014-present}
+	{\vspace{-3mm}
+		\begin{itemize}
+			\item Responsible for model development, execution, and visualization of C based simulations for the evolution of planetary spin-states via spin-orbit resonances, gas accretion, and collisions.
+			\item Developed Python post-processing tools for data aggregation, visualization, and statistical analysis.
+			\item Repurposed an N-body simulator using a Python wrapper to calculate the evolution of satellite orbits after a series of collisions. 
+			\item Published a novel explanation for Uranus's and Neptune's tilts that both reduces the mass and number of subsequent impacts, and preserves the planets' spin periods. 
+			\item Presented my findings at several national and divisional meetings in the US and abroad. 
+		\end{itemize}
+	}
+
+	\vspace{-6mm}
+	\cventry
+	{Summer Intern}
+	{NASA Goddard Space Flight Center}
+	{Greenbelt, MD}
+	{2014}
+	{\vspace{-3mm}
+		\begin{itemize}
+			\item Developed a Python image processing and analysis script to study cosmic ray origins in supernova remnants. 
+	\end{itemize}
+	}
+	
+	\vspace{-6mm}
+	\cventry
+	{Senior Thesis}
+	{Vassar College}
+	{Poughkeepsie, NY}
+	{2013-2014}
+	{\vspace{-3mm}
+		\begin{itemize}
+			\item Processed and analyzed several elliptical galaxies to find correlations between structure and star formation rates.
+	\end{itemize}
+	}
+	
+	\vspace{-6mm}
+	\cventry
+	{Keck Northeast Astronomy Consortium Summer Research Fellow}
+	{Williams College}
+	{Williamstown, MA}
+	{2013}
+	{\vspace{-3mm}
+		\begin{itemize}
+			\item Processed and analyzed raw images from the 2012 transit of Venus to explain the black-drop effect.
+	\end{itemize}}
+\end{cventries}
+
+\vspace{-5mm}
+
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Ph.D. in Astronomy}
+	{University of Maryland}
+	{College Park, MD}
+	{Aug 2020 (expected)}
+	{Advisor: Dr. Douglas Hamilton}
+	\cventry
+	{M.S. in Astronomy}
+	{University of Maryland}
+	{College Park, MD}
+	{Dec 2016}
+	{}
+	
+	\vspace{-6mm}
+	\cventry
+	{B.A. in Astronomy \& Physics}
+	{Vassar College}
+	{Poughkeepsie, NY}
+	{Jun 2010}
+	{Senior Thesis Advisor: Dr. Debra Elmegreen}
+\end{cventries}
+
+\vspace{-2mm}
+\ 
+\end{document}
