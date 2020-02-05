@@ -20,6 +20,12 @@
 %%% Themes: Awesome-CV
 \documentclass[]{awesome-cv}
 \usepackage{textcomp}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{amsfonts}
+
+\newcommand*{\specialitem}{\item[$\checkmark$] \entrypositionstyle}
+
 %%% Override a directory location for fonts(default: 'fonts/')
 \fontdir[fonts/]
 
@@ -57,6 +63,16 @@
 
 
 \cvsection{Skills}
+\begin{center}
+	\begin{multicols}{3}
+		\begin{itemize}
+			\specialitem{Cluster/Super Computing}
+			\specialitem{Reporting and Proposal Writing}
+			\specialitem{Data Mining and Visualization}
+		\end{itemize}
+	\end{multicols}
+\end{center}
+\vspace{-5mm}
 \begin{cventries}
 	\cventry
 	{}
@@ -82,12 +98,12 @@
 	{2014-present}
 	{\vspace{-3mm}
 		\begin{itemize}
-			\item Responsible for model development, execution, and visualization of C based simulations for the evolution of planetary spin-states via spin-orbit resonances, gas accretion, and collisions.
-			\item Developed Python post-processing tools for data aggregation, visualization, and statistical analysis.
-			\item Repurposed an N-body simulator using a Python wrapper to calculate the evolution of satellite orbits after a series of collisions. 
-			\item Published a novel explanation for Uranus's and Neptune's tilts that both reduces the mass and number of subsequent impacts, and preserves the planets' spin periods. Reprints and additional information can be found on my website.
-			\item Presented my findings at several national and divisional meetings in the US and abroad. 
-			\item Volunteered with the GRAD-MAP program by assisting with outreach, helping to plan the Winter Workshop, and maintaining the website. For more information, visit: www.umdgradmap.org
+			\item Responsible for model development, execution, and visualization of C based simulations for the evolution of planetary spin-states via spin-orbit resonances, gas accretion, and collisions. \vspace{0.7mm}
+			\item Developed Python post-processing tools for data aggregation (up to 1-10 TB), visualization, and statistical analysis. \vspace{0.7mm}
+			\item Repurposed an N-body simulator using a Python wrapper to calculate the evolution of satellite orbits after 100s of collisions. \vspace{0.7mm}
+			\item Published a novel explanation for Uranus's and Neptune's tilts that both reduces the mass and number of subsequent impacts, and preserves the planets' spin periods. Reprints and additional information can be found on my website. \vspace{0.7mm}
+			\item Presented my findings at several national and divisional meetings in the US and abroad. \vspace{0.7mm}
+			\item Volunteered with the GRAD-MAP program by assisting with outreach, helping to plan the Winter Workshop, and maintaining the website. For more information, visit: www.umdgradmap.org \vspace{0.7mm}
 		\end{itemize}
 	}
 
@@ -182,4 +198,5 @@
 	{Senior Thesis Advisor: Dr. Debra Elmegreen}
 \end{cventries}
 
+%\makecvfooter{}{}{}
 \end{document}
