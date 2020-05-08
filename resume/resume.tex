@@ -31,6 +31,7 @@
 
 %%% Configure a directory location for sections
 \newcommand*{\sectiondir}{resume/}
+\newcommand{\changeurlcolor}[1]{\hypersetup{urlcolor=#1}} 
 
 %%% Override color
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
@@ -55,7 +56,7 @@
 \begin{center}
 	\headerfirstnamestyle{Zeeve} \headerlastnamestyle{Rogoszinski} \\
 	\vspace{2mm}
-	{\faEnvelope\ zero@umd.edu} | {\faMapMarker\ College Park, MD 20742} | {\faLink\ https://www.astro.umd.edu/\textasciitilde{}zero/}
+	{\faEnvelope\ zero@umd.edu} | {\faMapMarker\ College Park, MD 20742} | {\faLink\ \changeurlcolor{black}\href{https://www.astro.umd.edu/~zero/}{https://www.astro.umd.edu/\textasciitilde{}zero/}}
 \end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Content
@@ -101,10 +102,10 @@
 		\begin{itemize}
 			\item Responsible for model development, execution, and visualization of C based simulations for the evolution of planetary spin-states via spin-orbit resonances, gas accretion, and collisions. \vspace{0.7mm}
 			\item Developed Python post-processing tools for data aggregation (up to 1-10 TB), visualization, and statistical analysis. \vspace{0.7mm}
-			\item Repurposed an N-body simulator using a Python wrapper to calculate the evolution of satellite orbits after 100s of collisions. \vspace{0.7mm}
-			\item Published a novel explanation for Uranus's and Neptune's tilts that both reduces the mass and number of subsequent impacts, and preserves the planets' spin periods. Reprints and additional information can be found on my website. \vspace{0.7mm}
+			\item Published a novel explanation for Uranus's and Neptune's tilts that both reduces the mass and number of subsequent impacts, and preserves the planets' spin periods. Reprints, news articles, and additional information can be found on my \href{https://www.astro.umd.edu/~zero/}{website}. \vspace{0.7mm}
 			\item Presented my findings at several national and divisional meetings in the US and abroad. \vspace{0.7mm}
-			\item Volunteered with the GRAD-MAP program by assisting with outreach, and helping to plan the Winter Workshop. GRAD-MAP is a diversity initiative and graduate student led organization by the Astronomy and Physics departments dedicated to sustaining ties between UMD and other minority serving institutions. For more information, visit: www.umdgradmap.org \vspace{0.7mm}
+			\item Repurposed an N-body simulator using a Python wrapper to calculate the evolution of satellite orbits after 100s of collisions. \vspace{0.7mm}
+			\item Volunteered with the GRAD-MAP program by assisting with outreach, and helping to plan the Winter Workshop. GRAD-MAP is a diversity initiative and graduate student led organization by the Astronomy and Physics departments dedicated to sustaining ties between UMD and other minority serving institutions. For more information, visit: \href{https://www.umdgradmap.org/}{www.umdgradmap.org}. \vspace{0.7mm}
 		\end{itemize}
 	}
 
