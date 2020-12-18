@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.3)  28 AUG 2020 14:42
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.3)  18 DEC 2020 17:03
 entering extended mode
 **./Zeeve_Rogoszinski_CV.tex
 (Zeeve_Rogoszinski_CV.tex
@@ -809,13 +809,13 @@ Overfull \hbox (22.76863pt too wide) in paragraph at lines 102--102
 
 [1
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 382.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
+] [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 402.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 402.
  (Zeeve_Rogoszinski_CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 382.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 382.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 402.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 402.
 Package rerunfilecheck Info: File `Zeeve_Rogoszinski_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
  ) 
@@ -828,4 +828,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  54i,17n,109p,834b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Zeeve_Rogoszinski_CV.pdf (2 pages).
+Output written on Zeeve_Rogoszinski_CV.pdf (3 pages).
