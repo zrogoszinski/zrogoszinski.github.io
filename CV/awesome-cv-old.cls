@@ -90,8 +90,7 @@
   pdfauthor={},
   pdfsubject={},
   pdfkeywords={},
-  colorlinks=true,
-  urlcolor=awesome-skyblue,
+  colorlinks=false,
   allbordercolors=white
 }
 
