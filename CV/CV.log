@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.3)  18 DEC 2020 17:16
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.3)  28 APR 2021 10:49
 entering extended mode
 **./CV.tex
 (CV.tex
@@ -810,12 +810,12 @@ Overfull \hbox (73.08864pt too wide) in paragraph at lines 99--99
 [1
 
 ] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 342.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 342.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
  (CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 342.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 342.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 351.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
  ) 
